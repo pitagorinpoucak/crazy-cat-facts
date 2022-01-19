@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crazy Cat Facts</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--try to put some background image that repeats itself and make divs slide on it, maybe crooked div background or something like that
@@ -13,9 +14,17 @@
     <div class="nav">
         <!--Logo on the left, navigation links on the right
         navigation links: 
-        - about us (links to another page)
+        - about us 
         - subscibe (links to subscribe form down)
         - unsubscribe (outer page)-->
+
+        <a href="#"><img src="img/paw.png" alt="Paw print logo"></a>
+
+        <ul>
+            <li><a href="#flash">About us</a></li>
+            <li><a href="#sub">Subscribe</a></li>
+            <li><a href="unsubscribe.html">Unsuibscribe</a></li>
+        </ul>
 
     </div>
 
@@ -24,7 +33,7 @@
     </div>
 
     <div class="content">
-        <div class="flashcards">
+        <div class="flashcards" id="flash">
             <!--basic info about the service, try to do a sliding animation or something with the cards-->
         </div>
 
@@ -32,7 +41,7 @@
             <!--quote by a satisfied customer, maybe make multiple ones and use some animation to chage it or something-->
         </div>
 
-        <div class="subscribe">
+        <div class="subscribe" id="sub">
             <!--call to action and subscription form, maybe make form appear if subscribe button is pressed,
             also if form is filled, try to ge a popup or something with confirmation/info that it's out of order-->
         </div>
