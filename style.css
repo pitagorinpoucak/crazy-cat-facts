@@ -78,12 +78,61 @@ img {
 
 .quote {
     background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5% 10%;
+}
+
+.txt {
+    font-style: oblique;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 3%;
+}
+
+.author {
+    font-weight: 700;
+    text-align: right;
 }
 
 .call {
     background-color: cadetblue;
+    padding: 5% 10%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.call div {
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15%;
+    padding: 2%;
+}
+
+.call div .cto {
+    font-size: 18px;
+}
+
+.call div button {
+    font-size: 24px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid blue;
 }
 
 .footer {
     background-color: chartreuse;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
 }
+
